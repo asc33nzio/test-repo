@@ -25,3 +25,7 @@ function printHelloWorld() {
 }
 
 printHelloWorld();
+
+function printErrors() {}
+
+printErrors();
