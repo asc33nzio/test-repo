@@ -18,3 +18,10 @@ class Logger {
 		console.log(logType + messages + this.reset);
 	}
 }
+
+function printHelloWorld() {
+	const logger = Logger.getInstance();
+	logger.log(LogEnum.info, "Hello world!");
+}
+
+printHelloWorld();
